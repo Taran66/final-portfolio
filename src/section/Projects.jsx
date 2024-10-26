@@ -41,7 +41,7 @@ const Projects = () => {
               <p className="text-base md:text-lg text-center">
                 {selectedProject.description}
               </p>
-              <video className="" src={selectedProject.video}
+              <video className="" src={import.meta.env.BASE_URL + selectedProject.video}
               controls autoPlay>
 
               </video>
@@ -64,7 +64,7 @@ const Projects = () => {
                 >
                   <div className="w-full overflow-hidden rounded-xl">
                     <img
-                      src={item.image}
+                      src={import.meta.env.BASE_URL + item.image}
                       alt={item.projectName}
                       className="w-full h-auto object-cover transition-transform duration-300"
                     />
