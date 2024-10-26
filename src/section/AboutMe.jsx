@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 
+
 const AboutMe = () => {
   const [activeSection, setActiveSection] = useState('skills');
 
@@ -26,7 +27,7 @@ const AboutMe = () => {
         <div className="flex flex-col lg:flex-row gap-8 lg:gap-20">
           {/* Image */}
           <img 
-            src="../src/assets/AboutMe.svg" 
+            src={`${process.env.PUBLIC_URL}/assets/AboutMe.svg`}
             alt="About Me" 
             className="w-full lg:w-[550px] h-auto rounded-2xl mx-auto lg:mx-0"
           />
