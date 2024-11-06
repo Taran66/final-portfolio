@@ -62,16 +62,16 @@ const AboutMe = () => {
             {activeSection === 'skills' && (
               <ul className="flex flex-col md:flex-row gap-6 md:gap-10">
                 <li className="text-white flex flex-col gap-4 w-full md:w-1/2 text-justify">
-                  <h6 className="text-amber-400 text-lg md:text-xl font-medium">Web Development</h6>
-                  <p className="text-sm md:text-base">
+                  <h6 className="text-amber-400 text-lg md:text-xl font-medium animate__animated animate__fadeIn">Web Development</h6>
+                  <p className="text-sm md:text-base animate__animated animate__fadeIn">
                     Experience in Frontend Development and passionate about
                     fullstack web development. Proficient in HTML, CSS and
                     Javascript and also in CSS framework Tailwind.
                   </p>
                 </li>
                 <li className="text-white flex flex-col gap-4 w-full md:w-1/2 text-justify">
-                  <h6 className="text-amber-400 text-lg md:text-xl font-medium">UX/UI</h6>
-                  <p className="text-sm md:text-base">
+                  <h6 className="text-amber-400 text-lg md:text-xl font-medium animate__animated animate__fadeIn">UX/UI</h6>
+                  <p className="text-sm md:text-base animate__animated animate__fadeIn">
                     Building design for Websites and Webpages. Well familiar with
                     Figma and Canva graphic design softwares.
                   </p>
@@ -83,14 +83,14 @@ const AboutMe = () => {
             {activeSection === 'technologies' && (
               <ul className="flex flex-col md:flex-row gap-6 md:gap-10">
                 <li className="text-white flex flex-col gap-4 w-full md:w-1/2 text-justify">
-                  <h6 className="text-amber-400 text-lg md:text-xl font-medium">React</h6>
-                  <p className="text-sm md:text-base">
+                  <h6 className="text-amber-400 text-lg md:text-xl font-medium animate__animated animate__fadeIn">React</h6>
+                  <p className="text-sm md:text-base animate__animated animate__fadeIn">
                     As a proficient React.js and JavaScript developer, I have honed my skills in building dynamic, interactive, and scalable web applications that deliver seamless user experiences.
                   </p>
                 </li>
                 <li className="text-white flex flex-col gap-4 w-full md:w-1/2 text-justify">
-                  <h6 className="text-amber-400 text-lg md:text-xl font-medium">Tailwind</h6>
-                  <p className="text-sm md:text-base">
+                  <h6 className="text-amber-400 text-lg md:text-xl font-medium animate__animated animate__fadeIn">Tailwind</h6>
+                  <p className="text-sm md:text-base animate__animated animate__fadeIn">
                     Proficient in using Tailwind CSS and also in other CSS frameworks like Bootstrap and Material UI
                   </p>
                 </li>
