@@ -1,12 +1,11 @@
 import React from 'react';
 import LeftsideContact from '../components/LeftsideContact';
-import RightsideContact from '../components/RightsideContact';
 
 const Contact = () => {
   return (
     <div className="h-screen flex justify-center items-center p-4 md:p-0">
       <div className="max-w-6xl w-full relative flex flex-col md:flex-row justify-center items-center gap-10 md:gap-20">
-        <div className="flex justify-center flex-col gap-10 w-full text-center md:text-left">
+        <div className="flex justify-center flex-col gap-28 w-full text-center md:text-left">
           {/* Title */}
           <div className="flex flex-col items-center md:items-center">
             <a href="#Contact" className="relative">
@@ -18,7 +17,7 @@ const Contact = () => {
           {/* Contact Sections */}
           <div className="flex flex-col md:flex-row justify-center items-center gap-10 md:gap-20">
             <LeftsideContact />
-            <RightsideContact />
+
           </div>
         </div>
       </div>
