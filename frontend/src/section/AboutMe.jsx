@@ -27,7 +27,7 @@ const AboutMe = () => {
         <div className="flex flex-col lg:flex-row gap-8 lg:gap-20">
           {/* Image */}
           <img 
-            src={import.meta.env.BASE_URL + '/assets/AboutMe.svg'} 
+            src={import.meta.env.BASE_URL + 'assets/AboutMe.svg'} 
             alt="About Me" 
             className="w-full lg:w-[550px] h-auto rounded-2xl mx-auto lg:mx-0"
           />
