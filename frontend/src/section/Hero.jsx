@@ -13,7 +13,7 @@ const Hero = () => {
     <ReactTyped
       strings={[
         "Taran Singh",
-        "Web Developer",
+        "a Web Developer",
       ]}
       typeSpeed={60}
       backSpeed={100}

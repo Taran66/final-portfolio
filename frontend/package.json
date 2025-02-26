@@ -3,7 +3,6 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Taran66.github.io/final-portfolio",
   "scripts": {
   "dev": "vite",
   "build": "vite build",

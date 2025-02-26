@@ -27,7 +27,7 @@ export const Project = [
         projectName: "AI Assistant", 
         description: "Made a comprehensive AI Assistant using LangChain (a software framework that helps facilitate the integration of large language models (LLMs) into applications). Used Groq chat model to make the AI model. Used Python for backend and React.js, TailwindCSS and Axios for frontend. User can also upload a document to get the answers related to the document.",
         paragh: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae, alias.",
-        video: "/assets/Askify.mp4"
+        video: "assets/Askify.mp4"
     },
 
     {image: "assets/social-undraw.svg", 

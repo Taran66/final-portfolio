@@ -1,9 +1,11 @@
-import { useState } from "react";
+import { useState, useRef } from "react";
 import { Project } from "../constants";
 import "animate.css";
 
 const Projects = () => {
   const [selectedProject, setSelectedProject] = useState(null);
+
+  const projectsSectionRef = useRef(null);
 
   const handleProjectClick = (project) => {
     setSelectedProject(project);
@@ -11,10 +13,16 @@ const Projects = () => {
 
   const handleBackToProjects = () => {
     setSelectedProject(null);
+    setTimeout(() => {
+      // Scroll to the top of the projects section
+      if (projectsSectionRef.current) {
+        projectsSectionRef.current.scrollIntoView({ behavior: 'smooth' });
+      }
+    }, 0);
   };
 
   return (
-    <div className="min-h-screen py-16 md:py-24 flex justify-center items-center px-4 md:px-6">
+    <div className="min-h-screen py-16 md:py-24 flex justify-center items-center px-4 md:px-6" ref={projectsSectionRef}>
       <div className="max-container relative w-full">
         <div className="flex flex-col gap-10 md:gap-20">
           {/* Title Section */}
