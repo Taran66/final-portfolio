@@ -2,7 +2,7 @@ import { ReactTyped } from "react-typed";
 
 const Hero = () => {
   return (
-    <div className="relative z-20 flex flex-col justify-center items-center top-1/3 max-container px-4 md:px-6">
+    <div className="relative z-20 flex flex-col justify-center items-center top-1/4 max-container px-4 md:px-6">
       
       <h1 className="text-4xl md:text-6xl lg:text-8xl text-white flex flex-col gap-2 md:gap-6 text-center md:text-left">
         Hi, I am
